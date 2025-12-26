@@ -49,4 +49,16 @@ A fun, interactive Virtual Pet game built with **HTML, CSS, and JavaScript**. Ch
 
 ---
 
+## Screenshots
+
+### Setup Screen
+![Setup Screen](screenshots/Virtual-Pet-Screenshot-Img-1)
+
+![Setup Screen Image 2](screenshots/Virtual-Pet-Screenshot-Img-2)
+
+### Main Game Screen
+
+ - Still in progress!
+
+
 
