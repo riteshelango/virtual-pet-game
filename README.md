@@ -49,16 +49,4 @@ A fun, interactive Virtual Pet game built with **HTML, CSS, and JavaScript**. Ch
 
 ---
 
-## Project Structure
 
-virtual-pet/
-│
-├─ index.html # Main HTML file
-├─ style.css # Stylesheet for layout and animations
-├─ script.js # JavaScript logic for game interactions
-├─ assets/ # Images used in the game
-│ └─ pets/
-│ ├─ dog.png
-│ ├─ cat.png
-│ └─ rabbit.png
-└─ README.md # This file
