@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <section id="disappearing-setup-screen" class="setup-container">
+      <div class="pet-icons">
+    
+<span class="icon">
+  <img src="assets/pets/dog.png" alt="Dog">
+</span>
+<span class="icon">
+  <img src="assets/pets/cat.png" alt="Cat" id="cat-img-start">
+</span>
+<span class="icon">
+  <img src="assets/pets/rabbit.png" alt="Rabbit">
+</span>
+
+        </div>
+        <h1>Create your <strong>Virtual Pet</strong></h1>
+        <p class="subtitle">Created By Ritesh Elango</p>
+      
+        <div class="form-group">
+        <label for="pet-name">Pet Name:</label>
+    <input type="text" id="pet-name" placeholder="Enter your pet's name...">
+    </div>
+   
+
+    <div class="form-group">
+  <label for="pet-type">Choose your pet type</label>
+  <div class="custom-select">
+    <button type="button" class="select-button" aria-expanded="false">
+      <span class="selected-value">Select a pet...</span>
+    </button>
+    <div class="select-dropdown hidden">
+      <ul>
+        <li data-value="dog">🐶 Dog</li>
+        <li data-value="cat">🐱 Cat</li>
+        <li data-value="rabbit">🐰 Rabbit</li>
+      </ul>
+      </div>
+    </div>
+  
+  <select name="pet-type" id="pet-type" style="display: none;">
+    <option value="">Select your pet...</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="rabbit">Rabbit</option>
+    
+  </select>
+</div>
+  <button id="start-btn">Start Your Quest!</button>
+  </section>
+
+
+
+    
+    <section id="main-screen" class="hidden">
+      <h1>Welcome to your Virtual Pet!</h1>
+      <h3>Your pet is ready to play and interact with you.</h3>
+      <div id="pet-display">
+        <img src="" id="pet-image">
+        <p id="pet-emotion">😂</p>
+      </div>
+      <div id="stats">
+        <p id="hunger"></p>
+        <p id="happiness"></p>
+        <p id="energy"></p>
+        <p id="health"></p>
+        <p id="money"></p>
+        <p id="cleanliness"></p>
+      </div>
+      <div id="actions">
+    <button id="feed-btn">Feed</button>
+    <button id="play-btn">Play</button>
+    <button id="rest-btn">Rest</button>
+    <button id="clean-btn">Clean</button>
+    <button id="health-btn">Health Check</button>
+    <button id="earn-btn">Earn</button>
+      </div>
+    </section>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
+
